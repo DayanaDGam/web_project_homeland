@@ -30,6 +30,7 @@
     max-width: 530px;
     font-size: 75px;
     line-height: 1;
+    text-align: center;
 }
 
 .header__subheading {
@@ -58,6 +59,7 @@
         max-width: 710px;
         font-size: 45px;
         line-height: 0.8;
+        margin-left: 200px;
         }  
 }
 
@@ -71,6 +73,7 @@
     max-width: 740px;
     font-size: 24px;
     line-height: 1.3;
+    margin-left: 200px;
 }
 
 .main__paragraph_quote-name_right {
