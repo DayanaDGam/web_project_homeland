@@ -61,12 +61,12 @@ body{
 .main__title {
     max-width: 740px;
     font-size: 45px;
-    margin: 30px auto;
+    margin: 20px auto
     }  
 
 .main__paragraph_quote-text_left {
     text-align: left;
-    margin: 40ppx 0 10px;
+    margin: 40px 0 10px;
     padding: 0;
 }
 
@@ -79,7 +79,7 @@ body{
 
 .main__paragraph_quote-name_right {
     text-align: right;
-    margin: o;
+    margin: auto;
     padding: 0;
     position: relative;
     right: 6px;
@@ -99,7 +99,8 @@ body{
 @media (max-width: 1280px){
     .main__title {
         max-width: 710px;
-        font-size: 45px;
+        font-size: 52px;
+        margin-left: 180px;
         }  
     .main__paragraph {
         max-width: 710px;
@@ -112,7 +113,7 @@ body{
 @media (max-width: 768px){
     .main__title {
         max-width: 700px;
-        font-size: 45px;
+        font-size: 42px;
         margin: 20px auto;
         }  
     .main__paragraph {
@@ -126,13 +127,17 @@ body{
 @media (max-width: 320px){
     .main__title {
         max-width: 690px;
-        font-size: 45px;
+        font-size: 32px;
         margin: 10px auto;
         } 
     .main__paragraph {
-            max-width: 690px;
+        max-width: 690px;
+        font-size: 24px;
         }
     .header__title {
-            font-size: 40px;     
+        font-size: 40px;     
+}
+    .main__paragraph_size-s {
+        font-size: 16px;
 }
 }
