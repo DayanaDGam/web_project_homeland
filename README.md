@@ -14,5 +14,6 @@ Este proyecto es una página web estática diseñada para mostrar una galería d
 - **Normalize.css**: Para asegurar consistencia entre navegadores.
 - **Google Fonts**: Tipografías utilizadas: Inter y Noto Serif.
 
+Enlace del githubpages: https://dayanadgam.github.io/web_project_homeland/index.html
 ---
 
