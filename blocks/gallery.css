@@ -1,0 +1,35 @@
+.gallery {
+    max-width: 1190px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px repeat(2, 1fr);
+    grid-gap: 16px 16px;
+    margin: 26px auto 92px;
+
+}
+
+.gallery__header{
+    text-align: center;
+    margin: auto;
+    grid-column: span 4;
+}
+
+.gallery__item{
+    width: 100%;
+}
+
+@media (min-width: 545px){
+    .gallery{
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: 50px repeat(4, 1fr);
+     margin: 0 24px 88px;
+    }  
+}
+@media (max-width: 1024px) {
+    .gallery__header{
+        grid-column: span 2;
+    }
+}
+
+
+
